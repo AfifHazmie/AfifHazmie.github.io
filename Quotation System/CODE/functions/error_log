@@ -1,0 +1,15 @@
+[06-Feb-2022 17:05:01 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`qms`.`feedback`, CONSTRAINT `feedback_ibfk_3` FOREIGN KEY (`f_qno`) REFERENCES `quotation` (`q_no`)) in /home/vtektmx1g1n3/public_html/functions/addFeedback.func.php:21
+Stack trace:
+#0 /home/vtektmx1g1n3/public_html/functions/addFeedback.func.php(21): mysqli_query()
+#1 {main}
+  thrown in /home/vtektmx1g1n3/public_html/functions/addFeedback.func.php on line 21
+[06-Feb-2022 17:05:48 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`qms`.`feedback`, CONSTRAINT `feedback_ibfk_3` FOREIGN KEY (`f_qno`) REFERENCES `quotation` (`q_no`)) in /home/vtektmx1g1n3/public_html/functions/addFeedback.func.php:21
+Stack trace:
+#0 /home/vtektmx1g1n3/public_html/functions/addFeedback.func.php(21): mysqli_query()
+#1 {main}
+  thrown in /home/vtektmx1g1n3/public_html/functions/addFeedback.func.php on line 21
+[06-Feb-2022 17:06:38 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`qms`.`feedback`, CONSTRAINT `feedback_ibfk_3` FOREIGN KEY (`f_qno`) REFERENCES `quotation` (`q_no`)) in /home/vtektmx1g1n3/public_html/functions/addFeedback.func.php:21
+Stack trace:
+#0 /home/vtektmx1g1n3/public_html/functions/addFeedback.func.php(21): mysqli_query()
+#1 {main}
+  thrown in /home/vtektmx1g1n3/public_html/functions/addFeedback.func.php on line 21
